@@ -18,7 +18,7 @@ import static androidx.test.espresso.matcher.ViewMatchers.withText;
 public class MainActivityTest {
     @Rule
     public ActivityScenarioRule rule = new ActivityScenarioRule<>(MainActivity.class);
-
+//не работает на моем устройстве
     @Test
     public void addTest() {
         onView(withId(R.id.et_oper1)).perform(typeText("2"));

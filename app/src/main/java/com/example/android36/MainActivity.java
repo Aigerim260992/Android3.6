@@ -10,7 +10,7 @@ import com.example.android36.domain.Math;
 public class MainActivity extends AppCompatActivity {
 
     private ActivityMainBinding binding;
-     private  final  Math math = new Math();
+    private final Math math = new Math();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,7 +39,6 @@ public class MainActivity extends AppCompatActivity {
             binding.tvResult.setText(String.valueOf(math.division(oper1, oper2)));
         });
     }
-
 
 
 }
