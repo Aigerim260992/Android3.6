@@ -15,6 +15,12 @@ public class Math {
     }
 
     public int division(int a, int b) {
-        return a / b;
+        if (b == 0) {
+            int exception = 565656;
+            return exception;
+        } else {
+            int result = a / b;
+            return result;
+        }
     }
 }
