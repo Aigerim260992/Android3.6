@@ -11,14 +11,12 @@
         android:id="@+id/et_oper1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="number"
         android:hint="Enter number"/>
 
     <EditText
         android:id="@+id/et_oper2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="number"
         android:hint="Enter number"/>
 
     <TextView
